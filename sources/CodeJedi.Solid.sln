@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeJedi.Solid", "CodeJedi.Solid\CodeJedi.Solid.csproj", "{D15EC080-6E38-42F3-8D50-A7D555005141}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D15EC080-6E38-42F3-8D50-A7D555005141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15EC080-6E38-42F3-8D50-A7D555005141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15EC080-6E38-42F3-8D50-A7D555005141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15EC080-6E38-42F3-8D50-A7D555005141}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {009D5955-C1F7-4FE1-8DFB-3CD726D2C731}
+	EndGlobalSection
+EndGlobal
