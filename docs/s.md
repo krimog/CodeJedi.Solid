@@ -52,6 +52,8 @@ Dans ce code, on distingue deux responsabilités :
 Avoir ces deux responsabilités dans la même classe implique que cette classe doit être modifiée à la fois en cas de modification du fonctionnement de la voiture (par exemple, l'ajout d'une méthode `TurnRight()`),
 mais aussi en cas de modification de l'apparence de la voiture (par exemple `AddStickers()`).
 
+> Avoir une classe avec beaucoup de lignes de code est souvent indicateur d'un non respect de ce principe.
+
 Pour corriger ce problème, il suffit de séparer la classe en deux classes distinctes, chacune ayant sa propre responsabilité.
 On peut également créer une classe dont la seule responsabilité sera de regrouper les différents concepts.
 
@@ -95,3 +97,5 @@ Faites bien attention à mettre dans des classes distinctes
 * La sérialisation des données
 * Les règles métier sur les données
 * La gestion de l'affichage
+
+## [Principe suivant](./o.md)

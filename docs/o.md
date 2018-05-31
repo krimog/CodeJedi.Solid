@@ -106,3 +106,5 @@ public class Driver
 ```
 
 Je peux désormais ajouter une classe `ElectricCar` qui hérite de `Car` et l'utiliser sans rien avoir à modifier dans la classe `Driver` (ou aucune autre). Cette classe est donc fermée à la modification mais ouverte à l'extension.
+
+## [Principe suivant](./l.md)

@@ -11,6 +11,7 @@ L'objectif de ce cours est de présenter les principes SOLID afin d'avoir un cod
 1. [L: Liskov Substitution Principle](./docs/l.md)
 1. [I: Interface Segregation Principle](./docs/i.md)
 1. [D: Dependency Inversion Principle](./docs/d.md)
+1. [Conclusion](./docs/conclusion.md)
 
 ## Pré-requis
 
