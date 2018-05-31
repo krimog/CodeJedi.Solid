@@ -2,7 +2,7 @@
 
 ## Introduction
 
-L'objectif de ce cours est de présenter les principes SOLID afin d'avoir un code propre, maintenable et réutilisable.
+L'objectif de ce cours est de prÃ©senter les principes SOLID afin d'avoir un code propre, maintenable et rÃ©utilisable.
 
 ## Sommaire
 
@@ -12,7 +12,7 @@ L'objectif de ce cours est de présenter les principes SOLID afin d'avoir un code
 1. [I: Interface Segregation Principle](./docs/i.md)
 1. [D: Dependency Inversion Principle](./docs/d.md)
 
-## Pré-requis
+## PrÃ©-requis
 
-Les principes SOLID ne sont pas spécifiques à un langage, cependant, mes exemples seront en `C#`. Il est donc nécessaire de connaître les bases de ce langage pour profiter pleinement de ce cours.
-Vous pouvez télécharger gratuitement Visual Studio Community sur [le site officiel](https://www.visualstudio.com/vs/community/).
+Les principes SOLID ne sont pas spÃ©cifiques Ã  un langage, cependant, mes exemples seront en `C#`. Il est donc nÃ©cessaire de connaÃ®tre les bases de ce langage pour profiter pleinement de ce cours.
+Vous pouvez tÃ©lÃ©charger gratuitement Visual Studio Community sur [le site officiel](https://www.visualstudio.com/vs/community/).
