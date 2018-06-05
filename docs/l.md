@@ -6,6 +6,8 @@
 
 Le principe de substitution de Liskov implique qu'on doit pouvoir remplacer une instance d'une classe par une instance d'une sous-classe tout en gardant le même comportement.
 
+![substitution](./assets/substitution.png)
+
 Une sous-classe doit donc être capable au minimum de faire tout ce que fait sa classe parente.
 
 Ceci aide à :

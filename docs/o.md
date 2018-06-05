@@ -19,9 +19,9 @@ public abstract class Car
 {
 }
 
-public class FuelCar : Car
+public class GasCar : Car
 {
-    public void GoForwardWithFuelEngine()
+    public void GoForwardWithGasEngine()
     {
     }
 }
@@ -49,8 +49,8 @@ public class Driver
             case DieselCar dc:
                 dc.GoForwardWithDieselEngine();
                 break;
-            case FuelCar fc:
-                fc.GoForwardWithFuelEngine();
+            case GasCar fc:
+                fc.GoForwardWithGasEngine();
                 break;
             default:
                 throw new NotSupportedException("This car type is not supported.");
@@ -75,7 +75,7 @@ public abstract class Car
     public abstract void GoForward();
 }
 
-public class FuelCar : Car
+public class GasCar : Car
 {
     public override void GoForward()
     {

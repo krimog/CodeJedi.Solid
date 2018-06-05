@@ -6,9 +6,9 @@ namespace CodeJedi.Solid.O
     {
     }
 
-    public class FuelCar_bad : Car_bad
+    public class GasCar_bad : Car_bad
     {
-        public void GoForwardWithFuelEngine()
+        public void GoForwardWithGasEngine()
         {
         }
     }
@@ -36,8 +36,8 @@ namespace CodeJedi.Solid.O
                 case DieselCar_bad dc:
                     dc.GoForwardWithDieselEngine();
                     break;
-                case FuelCar_bad fc:
-                    fc.GoForwardWithFuelEngine();
+                case GasCar_bad fc:
+                    fc.GoForwardWithGasEngine();
                     break;
                 default:
                     throw new NotSupportedException("This car type is not supported.");

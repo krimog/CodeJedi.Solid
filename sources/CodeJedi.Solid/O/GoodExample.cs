@@ -5,7 +5,7 @@ namespace CodeJedi.Solid.O
         public abstract void GoForward();
     }
 
-    public class FuelCar_good : Car_good
+    public class GasCar_good : Car_good
     {
         public override void GoForward()
         {
